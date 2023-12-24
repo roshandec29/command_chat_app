@@ -1,0 +1,20 @@
+Project Overview:
+
+Develop a client-server application in Python, where the server functions both as a connection point for the client and as a REST API for a chat-interface ReactJS UI. Users will interact with the server through this chat interface, inputting commands in a conversational style. The server receives these commands, sends them to a Python client application over a network (without using the socket library), and the client executes these commands and returns the output back to the server. The server then displays the output in the chat interface.
+
+
+Key Requirements:
+
+ReactJS Chat Interface: Design and implement a chat-style user interface using ReactJS. This interface will allow users to input commands in a chat-like format and will display responses from the server in the same conversational style.
+
+
+REST API on Server: Develop a RESTful API on the server to handle HTTP requests from the ReactJS chat interface. This API will manage the sending and receiving of chat messages, which include the commands and their outputs.
+
+
+Alternative Networking Solutions for Client-Server Communication: Instead of Python's socket library, explore other methods for network communication between the server and client. This could involve using higher-level libraries or frameworks, or even leveraging APIs provided by third-party services.
+
+
+Server and Client Development: Create a Python server application that manages both the REST API interactions with the ReactJS interface and the communication with the Python client for command execution. The client should execute the received commands and relay the output back to the server.
+
+
+Chat Interaction and Displaying Results: The server should process the client's output and send it back to the ReactJS chat interface, where it will be displayed as a message in the chat.
